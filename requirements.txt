@@ -1,0 +1,15 @@
+mss
+requests
+pandas
+openocr
+numpy
+matplotlib
+pyautogui
+Pillow
+connected-components-3d
+scipy
+google-auth
+google-api-python-client
+manga-ocr
+regex
+python-dotenv
