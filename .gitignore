@@ -1,0 +1,4 @@
+.env
+uma.csv
+*.ipynb
+*.json
