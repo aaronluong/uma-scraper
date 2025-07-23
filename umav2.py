@@ -25,8 +25,7 @@ webhook = os.getenv('WEBHOOK')
 servAccJson = os.getenv('GCPJSON')
 spreadsheetId = os.getenv('SPREADSHEETID')
 sheetname = os.getenv('SHEETNAME')
-print(webhook,servAccJson,spreadsheetId,sheetname)
-exit()
+
 # %%
 engine = OpenOCR(mode='server',drop_score=.01)
 mocr = MangaOcr()

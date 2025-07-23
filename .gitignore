@@ -2,3 +2,4 @@
 uma.csv
 *.ipynb
 *.json
+e2e_results/*
