@@ -78,11 +78,20 @@ Integrate with Google Sheets to automatically append or update rows in your spr
 3. **Prepare your Spreadsheet**
 
    * Create a new sheet or open an existing one.
+   * Make or rename the sheet name as desired in the bottom
    * Copy the **Spreadsheet ID** from its URL:
 
      ```
      https://docs.google.com/spreadsheets/d/<SPREADSHEETID>/edit
      ```
+
+4. **Add to `.env`**
+
+   ```ini
+   GCPJSON=umascrape.json
+   SPREADSHEETID=abcd123 
+   SHEETNAME=Fan Counts
+   ```
 
 * Share the sheet with your service account’s email (found in the JSON file, e.g., `uma-scraper-sa@….iam.gserviceaccount.com`) with **Editor** permission.
 
