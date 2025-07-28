@@ -7,7 +7,6 @@ import os
 from openocr import OpenOCR
 import json
 import numpy as np
-import matplotlib.pyplot as plt
 import time
 import pyautogui
 import threading
@@ -111,7 +110,7 @@ def scrollCap(fps,monitor):
     # Run capture loop in foreground so you can interrupt with the notebook
     capturedFrames = run_capture_loop(monitor,fps)
     return capturedFrames
-frames = scrollCap(20,monitor)
+frames = scrollCap(30,monitor)
 
 
 
